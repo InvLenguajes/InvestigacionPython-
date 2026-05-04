@@ -3,12 +3,11 @@ from functools import lru_cache
 
 
 class Settings(BaseSettings):
-    # Base de datos
-    db_server: str = "localhost"
+    db_server: str = "163.178.173.130"
     db_port: int = 1433
     db_name: str = "MovieRecommenderDB"
-    db_user: str = "sa"
-    db_password: str = ""
+    db_user: str = "lenguajes"
+    db_password: str = "lenguajesparaiso2025"
 
     # App
     app_host: str = "0.0.0.0"
